@@ -266,8 +266,8 @@ format-disconnected =
 [module/usuario]
 type = custom/script
 interval = 1
-format-prefix = ""
-format-prefix-foreground = ${colors.foreground}
+format-prefix = " "
+format-prefix-foreground = ${colors.foreground-alt}
 #exec = echo $USER
 exec = echo $env McLaw
 format-foreground = ${colors.foreground}
@@ -282,7 +282,7 @@ date-alt = " %d-%m-%Y"
 time = %H:%M
 time-alt = %H:%M:%S
 
-format-prefix = 
+format-prefix =   
 format-prefix-foreground = ${colors.foreground-alt}
 ;format-underline = #0a6cf5
 
